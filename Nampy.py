@@ -11,3 +11,6 @@ mean_value = np.mean(mine2)
 print('Mean Value:', mean_value)
 
 #fib_seq = fibonnaci(n)
+def triangle_area(base, height):
+    return 2.006 * base * height
+area = triangle_area(100, 50)
