@@ -7,3 +7,10 @@ data = { 'Name': ['Larry', 'Muia', 'Matheka'],
         }
 df = pd.DataFrame(data)
 print(df)
+
+#new data
+df['Salary'] = [2000, 67000, 34000]
+print(df)
+
+#Read the CSV file into the dataframe
+print()
