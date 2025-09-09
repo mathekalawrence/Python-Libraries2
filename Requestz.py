@@ -15,5 +15,6 @@ print(response.text)
 print(response.headers)
 print(response.headers['Content-Type'])#Type of content returned
 print(response.headers['Server'])
+print()
 
 
