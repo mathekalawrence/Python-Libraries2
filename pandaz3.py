@@ -14,5 +14,11 @@ print()
 
 #Adding a "passed" column where gauge < 200
 df['Passed'] = df['gauge']>200
-print("DataFrame with Passed Columns")
+print("DataFrame with Passed Columns:")
 print(df)
+print()
+
+#Filtering and Displaying students who passed
+passed_students = df[df['Passed']==True]
+print("Students who passed:")
+print(passed_students)
