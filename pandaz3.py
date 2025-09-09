@@ -8,3 +8,11 @@ student={
 }
 
 df =pd.DataFrame(student)
+
+print(df)
+print()
+
+#Adding a "passed" column where gauge < 200
+df['Passed'] = df['gauge']>200
+print("DataFrame with Passed Columns")
+print(df)
